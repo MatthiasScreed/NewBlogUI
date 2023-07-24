@@ -6,22 +6,28 @@
 	<link rel="stylesheet" href="/dist/output.css">
 	<title>Article_Title</title>
 </head>
-<body>
 	<header class="flex items-end justify-between p-4 lg:justify-normal lg:p-8">
-		<a href="/" class="inline-block">
+		<a href="index.html" class="inline-block">
 			<img src="/public/img/86408e8e3c104113a00ff21c7e860177.png" alt="Logo" class="w-full h-20">
 		</a>
 		<nav class="lg:ml-8">
-			<a href="/">Blog</a>
+			<a href="index.html">Blog</a>
 			<a href="/about.html">About</a>
 			<a href="/contact.html">Contact</a>
 		</nav>
 	</header>
-	<aside class="p-8 md:space-y-4">
+	<div class="flex flex-col p-4 space-y-4 divide-y-2 lg:space-y-0 divide-slate-200 lg:divide-x-2 lg:divide-y-0 lg:flex-row lg:p-0">
+		<aside class="p-8 md:space-y-4">
 			<!-- introduction -->
 			<div>
-				<h1 class="mt-0 mb-2 text-5xl font-bold leading-tight">Matthias Screed</h1>
-				<div class="mb-6 text-xl">Dev Designer</div>
+				<h1 class="mt-0 mb-2 text-5xl font-bold leading-tight">Article_Title</h1>
+				<div class="flex items-center mb-2 space-x-4">
+					<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
+					<span>.</span>
+					<p class="text-lg text-slate-500">Author_article</p>
+					<span>.</span>
+					<p class="text-lg text-slate-500">Date : article</p>
+				</div>
 				<p class="text-lg">
 					Hello welcome I'm web Dev, Designer,
 					base in paris is a blog about my creation and discovery
@@ -38,7 +44,6 @@
 			</div>
 		</aside>
 		<main class="px-8 pt-4 lg:pt-0">
-			<h2 class="mb-8 text-4xl leading-tight lg:pl-8">Lastest Post</h2>
 			<div class="flex flex-col mb-8 space-y-8">
 				<a href="post.html">
 					<article class="bg-white rounded-lg shadow-md lg:p-8 hover:shadow-lg">
@@ -90,5 +95,6 @@
 				</nav>
 			</div>
 		</main>
+	</div>
 </body>
 </html>
