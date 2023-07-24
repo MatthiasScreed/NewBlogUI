@@ -8,7 +8,7 @@
 	<title>New Blog</title>
 </head>
 <body >
-	<header class="flex items-end justify-between p-4 lg:justify-normal">
+	<header class="flex items-end justify-between p-4 lg:justify-normal lg:p-8">
 		<a href="/" class="inline-block">
 			<img src="/public/img/86408e8e3c104113a00ff21c7e860177.png" alt="Logo" class="w-full h-20">
 		</a>
@@ -18,11 +18,11 @@
 			<a href="/contact.html">Contact</a>
 		</nav>
 	</header>
-	<div class="flex flex-col p-4 space-y-4 divide-y-2 lg:space-y-0 divide-slate-200 lg:divide-x-2 lg:divide-y-0 lg:flex-row">
-		<aside class="md:space-y-4">
+	<div class="flex flex-col p-4 space-y-4 divide-y-2 lg:space-y-0 divide-slate-200 lg:divide-x-2 lg:divide-y-0 lg:flex-row lg:p-0">
+		<aside class="p-8 md:space-y-4">
 			<!-- introduction -->
 			<div>
-				<h1 class="mt-0 mb-2 text-5xl leading-tight">Matthias Screed</h1>
+				<h1 class="mt-0 mb-2 text-5xl font-bold leading-tight">Matthias Screed</h1>
 				<div class="mb-6 text-xl">Dev Designer</div>
 				<p class="text-lg">
 					Hello welcome I'm web Dev, Designer,
@@ -41,88 +41,90 @@
 		</aside>
 		<main class="pt-4 lg:pt-0">
 			<h2 class="mb-8 text-4xl leading-tight lg:pl-8 lg:mb-0">Lastest Post</h2>
-			<a href="">
-				<article class="lg:p-8">
-					<div class="relative">
-						<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
-						<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
-					</div>
-					<h3 class="my-3 text-3xl">Article_Title</h3>
-					<div class="flex items-center space-x-4">
-						<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
-						<span>.</span>
-						<p class="text-lg text-slate-500">Author_article</p>
-						<span>.</span>
-						<p class="text-lg text-slate-500">Date : article</p>
-					</div>
-				</article>
-			</a>
-			<a href="">
-				<article class="lg:p-8">
-					<div class="relative">
-						<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
-						<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
-					</div>
-					<h3 class="my-3 text-3xl">Article_Title</h3>
-					<div class="flex items-center space-x-4">
-						<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full ">
-						<span>.</span>
-						<p class="text-lg text-slate-500">Author_article</p>
-						<span>.</span>
-						<p class="text-lg text-slate-500">Date : article</p>
-					</div>
-				</article>
-			</a>
-			<a href="">
-				<article class="lg:p-8">
-					<div class="relative">
-						<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
-						<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
-					</div>
+			<div class="flex flex-col space-y-8">
+				<a href="/post.html">
+					<article class="rounded-lg shadow-md lg:p-8">
+						<div class="relative">
+							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
+							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
+						</div>
+						<h3 class="my-3 text-3xl font-bold">Article_Title</h3>
+						<div class="flex items-center space-x-4">
+							<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
+							<span>.</span>
+							<p class="text-lg text-slate-500">Author_article</p>
+							<span>.</span>
+							<p class="text-lg text-slate-500">Date : article</p>
+						</div>
+					</article>
+				</a>
+				<a href="/post.html">
+					<article class="rounded-lg shadow-md lg:p-8">
+						<div class="relative">
+							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
+							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
+						</div>
+						<h3 class="my-3 text-3xl font-bold">Article_Title</h3>
+						<div class="flex items-center space-x-4">
+							<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full ">
+							<span>.</span>
+							<p class="text-lg text-slate-500">Author_article</p>
+							<span>.</span>
+							<p class="text-lg text-slate-500">Date : article</p>
+						</div>
+					</article>
+				</a>
+				<a href="/post.html">
+					<article class="rounded-lg shadow-md lg:p-8">
+						<div class="relative">
+							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
+							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
+						</div>
 
-					<h3 class="my-3 text-3xl">Article_Title</h3>
-					<div class="flex items-center space-x-4">
-						<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
-						<span>.</span>
-						<p class="text-lg text-slate-500">Author_article</p>
-						<span>.</span>
-						<p class="text-lg text-slate-500">Date : article</p>
-					</div>
-				</article>
-			</a>
-			<a href="">
-				<article class="lg:p-8">
-					<div class="relative">
-						<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
-						<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
-					</div>
+						<h3 class="my-3 text-3xl font-bold">Article_Title</h3>
+						<div class="flex items-center space-x-4">
+							<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
+							<span>.</span>
+							<p class="text-lg text-slate-500">Author_article</p>
+							<span>.</span>
+							<p class="text-lg text-slate-500">Date : article</p>
+						</div>
+					</article>
+				</a>
+				<a href="/post.html">
+					<article class="rounded-lg shadow-md lg:p-8">
+						<div class="relative">
+							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
+							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
+						</div>
 
-					<h3 class="my-3 text-3xl">Article_Title</h3>
-					<div class="flex items-center space-x-4">
-						<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
-						<span>.</span>
-						<p class="text-lg text-slate-500">Author_article</p>
-						<span>.</span>
-						<p class="text-lg text-slate-500">Date : article</p>
-					</div>
-				</article>
-			</a>
-			<a href="">
-				<article class="lg:p-8">
-					<div class="relative">
-						<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
-						<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
-					</div>
-					<h3 class="my-3 text-3xl">Article_Title</h3>
-					<div class="flex items-center space-x-4">
-						<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
-						<span>.</span>
-						<p class="text-lg text-slate-500">Author_article</p>
-						<span>.</span>
-						<p class="text-lg text-slate-500">Date : article</p>
-					</div>
-				</article>
-			</a>
+						<h3 class="my-3 text-3xl font-bold">Article_Title</h3>
+						<div class="flex items-center space-x-4">
+							<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
+							<span>.</span>
+							<p class="text-lg text-slate-500">Author_article</p>
+							<span>.</span>
+							<p class="text-lg text-slate-500">Date : article</p>
+						</div>
+					</article>
+				</a>
+				<a href="/post.html">
+					<article class="rounded-lg shadow-md lg:p-8">
+						<div class="relative">
+							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
+							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
+						</div>
+						<h3 class="my-3 text-3xl font-bold">Article_Title</h3>
+						<div class="flex items-center space-x-4">
+							<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
+							<span>.</span>
+							<p class="text-lg text-slate-500">Author_article</p>
+							<span>.</span>
+							<p class="text-lg text-slate-500">Date : article</p>
+						</div>
+					</article>
+				</a>
+			</div>
 
 			<!-- Pagination -->
 			<div class="lg:px-8">
