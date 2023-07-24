@@ -749,6 +749,10 @@ select {
   margin-top: 0px;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -937,6 +941,11 @@ select {
   padding-bottom: 0.5rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .pl-1 {
   padding-left: 0.25rem;
 }
@@ -1037,6 +1046,12 @@ select {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
+.hover\:shadow-lg:hover {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px) {
   .sm\:px-0 {
     padding-left: 0px;
@@ -1061,6 +1076,11 @@ select {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
