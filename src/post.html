@@ -3,9 +3,10 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/dist/output.css">
+	<link rel="stylesheet" href="/src/index.css">
 	<title>Article_Title</title>
 </head>
+<body>
 	<header class="flex items-end justify-between p-4 lg:justify-normal lg:p-8">
 		<a href="index.html" class="inline-block">
 			<img src="/public/img/86408e8e3c104113a00ff21c7e860177.png" alt="Logo" class="w-full h-20">
@@ -17,10 +18,10 @@
 		</nav>
 	</header>
 	<div class="flex flex-col p-4 space-y-4 divide-y-2 lg:space-y-0 divide-slate-200 lg:divide-x-2 lg:divide-y-0 lg:flex-row lg:p-0">
-		<aside class="p-8 md:space-y-4">
+		<aside class="md:space-y-4 lg:w-2/5">
 			<!-- introduction -->
 			<div>
-				<h1 class="mt-0 mb-2 text-5xl font-bold leading-tight">Article_Title</h1>
+				<h1 class="mt-0 mb-6 text-5xl font-bold leading-tight">Article_Title</h1>
 				<div class="flex items-center mb-2 space-x-4">
 					<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
 					<span>.</span>
@@ -28,10 +29,8 @@
 					<span>.</span>
 					<p class="text-lg text-slate-500">Date : article</p>
 				</div>
-				<p class="text-lg">
-					Hello welcome I'm web Dev, Designer,
-					base in paris is a blog about my creation and discovery
-					en various topic
+				<p class="prose md:prose-lg">
+					Article text Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, dignissimos! Perspiciatis dolores minima cum molestiae id labore ipsum atque, eum suscipit provident, eius laudantium esse rem aliquid minus impedit exercitationem.
 				</p>
 			</div>
 
@@ -43,26 +42,20 @@
 				<a href=""><span class="inline-flex items-center px-2 py-1 text-xs text-gray-600 bg-gray-200 border-gray-500 rounded-full">Web3</span></a>
 			</div>
 		</aside>
-		<main class="px-8 pt-4 lg:pt-0">
+		<main class="pt-4 lg:pt-0 lg:w-3/5">
 			<div class="flex flex-col mb-8 space-y-8">
-				<a href="post.html">
-					<article class="bg-white rounded-lg shadow-md lg:p-8 hover:shadow-lg">
-						<div class="relative">
-							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-lg">
-							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
-						</div>
-						<h3 class="mt-6 mb-2 text-3xl font-bold">Article_Title</h3>
-						<div class="flex items-center space-x-4">
+				<div class="relative">
+					<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="">
+				</div>
+				<h3 class="mt-6 mb-2 text-3xl font-bold">Article_Title</h3>
+				<div class="flex items-center space-x-4">
 							<img src="/public/img/thomas-mahon-hex-queenfetoos.jpg" alt="" class="w-10 h-10 rounded-full">
 							<span>.</span>
 							<p class="text-lg text-slate-500">Author_article</p>
 							<span>.</span>
 							<p class="text-lg text-slate-500">Date : article</p>
-						</div>
-					</article>
-				</a>
+				</div>
 			</div>
-
 			<!-- Pagination -->
 			<div class="lg:px-8">
 				<nav class="flex items-center justify-between px-4 border-t border-gray-200 sm:px-0">
