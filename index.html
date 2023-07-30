@@ -7,8 +7,9 @@
 	<link rel="stylesheet" href="/dist/output.css">
 	<title>New Blog</title>
 </head>
-<body >
-	<header class="flex items-end justify-between px-4 bg-white lg:justify-normal">
+<body>
+	<div class=" bg-white">
+	<header class="flex items-end justify-between px-4 lg:justify-normal lg:max-w-7xl lg:mx-auto">
 		<a href="/" class="inline-block py-2">
 			<img src="../public/img/86408e8e3c104113a00ff21c7e860177.png" alt="Logo" class="w-full h-20">
 		</a>
@@ -18,8 +19,9 @@
 			<a class="inline-block py-2" href="/contact.html">Contact</a>
 		</nav>
 	</header>
-	<div class="flex flex-col p-4 space-y-4 divide-y-2 lg:space-y-0 divide-slate-200 lg:divide-x-2 lg:divide-y-0 lg:flex-row lg:p-0">
-		<aside class="sm:p-8 md:space-y-4 lg:w-3/5">
+	</div>
+	<div class="flex flex-col p-4 space-y-4 divide-y-2 lg:space-y-0 divide-slate-200 lg:divide-x-2 lg:divide-y-0 lg:flex-row lg:p-0 lg:max-w-7xl lg:mx-auto">
+		<aside class="sm:p-8 md:space-y-4 lg:w-2/5">
 			<!-- introduction -->
 			<div>
 				<h1 class="mt-0 mb-2 text-5xl font-bold leading-tight">Matthias Screed</h1>
@@ -80,7 +82,7 @@
 				</div>
 			</div>
 		</aside>
-		<main class="pt-4 sm:px-8 lg:pt-8 lg:w-4/5">
+		<main class="pt-4 sm:px-8 lg:pt-8 lg:w-3/5">
 			<div class="flex flex-col items-center justify-between mb-8 space-y-4 md:space-y-0 md:flex-row">
 			<h2 class="text-4xl font-bold leading-tight">Lastest Post</h2>
 			<form action="" method="get" class="">
@@ -89,10 +91,11 @@
 			</form>
 			</div>
 			<div class="flex flex-col mb-8 space-y-8">
-				<a href="post.html">
+				<div>
+					<a href="post.html" >
 					<article class="bg-white rounded-lg shadow-md hover:shadow-lg">
 						<div class="relative">
-							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-t-lg bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-t-lg w-full">
 							<span class="absolute px-3 py-2 bg-white bg-opacity-75 rounded-lg top-8 left-6">Category</span>
 						</div>
 						<div class="lg:p-8">
@@ -108,7 +111,9 @@
 
 					</article>
 				</a>
-				<a href="post.html">
+				</div>
+				<div>
+					<a href="post.html">
 					<article class="bg-white rounded-lg shadow-md hover:shadow-lg">
 						<div class="relative">
 							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-t-lg">
@@ -126,7 +131,9 @@
 						</div>
 					</article>
 				</a>
-				<a href="post.html">
+				</div>
+				<div>
+					<a href="post.html">
 					<article  class="bg-white rounded-lg shadow-md hover:shadow-lg">
 						<div class="relative">
 							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-t-lg">
@@ -145,7 +152,9 @@
 						</div>
 					</article>
 				</a>
-				<a href="post.html">
+				</div>
+				<div>
+					<a href="post.html">
 					<article  class="bg-white rounded-lg shadow-md hover:shadow-lg">
 						<div class="relative">
 							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-t-lg">
@@ -163,8 +172,10 @@
 							</div>
 						</div>
 					</article>
-				</a>
-				<a href="post.html">
+					</a>
+				</div>
+				<div>
+					<a href="post.html">
 					<article class="bg-white rounded-lg shadow-md hover:shadow-lg">
 						<div class="relative">
 							<img src="/public/img/thomas-mahon-hex-tutorial.jpg" alt="image_name" class="rounded-t-lg">
@@ -181,7 +192,8 @@
 							</div>
 						</div>
 					</article>
-				</a>
+					</a>
+				</div>
 			</div>
 
 			<!-- Pagination -->
@@ -220,6 +232,6 @@
 	<footer>
 		<p>&copy; 2023 Mon Blog. Tous droits réservés.</p>
 	</footer>
-	<script type="module" src="../src/main.js"></script>
+	<script type="module" src="/src/main.js"></script>
 </body>
 </html>
